@@ -32,7 +32,6 @@ function thumbUpComment(id) {
     return {
         type: THUMB_UP_COMMENT,
         id,
-        thumbsUp: thumbsUp + 1
     }
 }
 
@@ -40,6 +39,5 @@ function thumbDownComment(id) {
     return {
         type: THUMB_DOWN_COMMENT,
         id,
-        thumbsDown: thumbsDown + 1
     }
 }
